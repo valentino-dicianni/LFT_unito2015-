@@ -1,0 +1,21 @@
+boolean x, y;
+
+begin
+	x := true;
+	y := false;
+	
+	print(x); print(y);
+
+	if x || y 
+		then y := true
+		else y := false;
+
+	print(x); print(y);
+
+	while x && y
+		do y := false;
+	
+	print(x); print(y);	
+	if x  then print(y);
+end
+$

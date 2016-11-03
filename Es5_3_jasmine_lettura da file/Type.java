@@ -1,0 +1,1 @@
+public enum Type { INTEGER, BOOLEAN, NIL }	//viene aggiunta all'unum anche il tipo NIL in accordo con l'implementazione proposta nel corso di teoria
